@@ -4,6 +4,7 @@ import path from "node:path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/form/',
   server: {
     port: 3000,
     open: true,
